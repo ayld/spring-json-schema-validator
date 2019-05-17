@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: json-schema-poc
+server:
+  port: 8082
+
+validation:
+  schemaPath: classpath:schemas/

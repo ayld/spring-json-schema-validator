@@ -1,0 +1,23 @@
+{
+  "definitions": {},
+  "required": [
+    "twoNames",
+    "email"
+  ],
+  "properties": {
+    "twoNames": {
+        "type": "string",
+        "title": "The Twonames Schema",
+        "pattern": "^(.*) (.*)$"
+     },
+    "email": {
+        "type": "string",
+        "title": "The Email Schema",
+       "pattern": "^(.*)@(.*)\\.(.*)$"
+     },
+    "age": {
+        "type": "number",
+        "title": "The Age Schema"
+     }
+  }
+}
